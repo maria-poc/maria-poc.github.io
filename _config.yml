@@ -1,0 +1,31 @@
+title: Maria Simões
+email: contact@mariasimoes.arq.br
+description: > 
+  Architecture Student
+permalink: ':title/'
+baseurl: ""
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author settings
+author: Maria Simões
+author-pic: profile.jpg
+about-author: My name is Maria Simões and I am an Architecture and Urban Planning student at the Federal University of Rio de Janeiro.
+
+email: contact@mariasimoes.arq.br
+website: mariasimoes.arq.br
+linkedin: mesimões
+
+analytics: # Google Analytics
+
+paginate: 6
+paginate_path: /page:num/
+
+markdown: kramdown
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]
